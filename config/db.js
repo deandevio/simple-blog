@@ -9,5 +9,4 @@ const DB_CONNECT = async () => {
   });
   console.log(`Mongo is connected successfuly on ${conn.connection.host}`);
 };
-
 module.exports = DB_CONNECT;
